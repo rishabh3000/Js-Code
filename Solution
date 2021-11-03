@@ -1,0 +1,21 @@
+# Bim Calculator By JS
+function bmiCalculator(weight,height)
+{
+    var bmi= weight/Math.pow(height,2);
+    return bmi;
+    
+ }
+ 
+ # Switching the value by JS
+ function test() {
+    var a = "3";
+    var b = "8";
+   
+
+var c=a
+a=b
+b=c
+    
+    console.log("a is " + a);
+    console.log("b is " + b);
+}
